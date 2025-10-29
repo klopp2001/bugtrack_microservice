@@ -15,3 +15,16 @@ spring:
 #          uri: http://localhost:8080
 #          predicates:
 #            - Path=/orders     # ????? ?????? ???????????? ? /orders
+    globalcors:
+      add-to-simple-url-handler-mapping: true
+      corsConfigurations:
+        '[/**]':
+          allowedOrigins: "http://localhost:3000"
+          allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - DELETE
+            - OPTIONS
+          allowedHeaders: "*"
+          allowCredentials: true
