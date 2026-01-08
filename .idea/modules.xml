@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bugtrack_microservice.iml" filepath="$PROJECT_DIR$/.idea/bugtrack_microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/issue_service/issues_service.iml" filepath="$PROJECT_DIR$/issue_service/issues_service.iml" />
     </modules>
   </component>
 </project>
